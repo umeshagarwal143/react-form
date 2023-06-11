@@ -11,3 +11,132 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+    margin: 0;
+  padding: 0;
+}
+
+body {
+    background: url(./background1.jpg);
+    background-size:cover;
+  
+}
+
+form {
+    width: 400px;
+    padding:20px;
+    font-family: sans-serif;
+    margin:auto;
+    margin-top:5rem;
+}
+
+form > div >div{
+    padding:10px
+}
+
+form > div > button{
+    margin: .8rem 0 1rem 25px ;
+    
+   
+    
+}
+
+#main-container {
+    background-color: rgba(0,0,0,0.4);
+    width:100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow:2px 2px 15px rgba(255,255,255,1);
+    color:#fff;
+}
+
+.row-containers {
+    margin:15px;
+}
+
+label {
+    font-style:italic;    
+}
+
+input {
+    width:80%;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    padding: 2px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+    
+}
+
+button {
+    width:200px;
+    padding:7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgba(250,100,0,.8);
+    color:#fff;
+    cursor : pointer;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+
+#main-container:hover{
+    background-color: rgba(0,0,0,1);
+   
+}
+
+.showDataStyle:hover{
+    background-color: rgba(100,100,100,0.5);
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow:2px 2px 15px rgba(255,255,255,1);
+}
+
+
+.data {
+    margin-top: 20px;
+  }
+  
+  .showDataStyle1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(250,100,0,.8);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    width:74%;
+    margin-left: 11%;
+  }
+  
+  .showDataStyle {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,.3);
+    padding: 10px;
+    width:74%;
+    margin-left: 11%;
+    color:#ccc;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+    width:78%;
+    margin-left: 9.5%;
+  }
+  
+
+  .databox{
+    opacity:0;
+  }
+
+
+  
+  
+  
+  
